@@ -1,6 +1,6 @@
 [app]
 # The name of your app as displayed in the menu
-name = "Demo App"
+name = "Clocky"
 
 # The submenu where your app should appear.
 # One of: "Badge", "Music", "Media", "Apps", "Games"
@@ -14,24 +14,24 @@ category = "Badge"
 # OPTIONAL: If your app prefers wifi to be off or on when entering.
 # Useful if you want more resources (false) or need wifi (true).
 # Remove if you don't want to change wifi state!
-# wifi_preference = false
+wifi_preference = true
 
 [entry]
 # The name of your entry point `Application` class
-# class = "NickApp"
+class = "ClockyApp"
 
 [metadata]
 # Your nickname.  Must be at most 32 characters!
-author = "hughrawlinson"
+author = "edent"
 
 # License of your app as an SPDX identifier: <https://spdx.org/licenses/>
-license = "LGPL-3.0-only"
+license = "MIT"
 
 # URL to the repository of your app.
-url = "https://www.github.com/hughrawlinson/tildagon-demo"
+url = "https://github.com/edent/tildagon-clocky"
 
 # Description of your app.  Maximum 140 characters!
-description = "A demo tildagon app for use developing the app directory"
+description = "A clock / watch for your Tildagon. Hardcoded to BST."
 
 # Version number of your app.  If you push a commit where this number is
 # increased, we interpret this as a new version being released.
